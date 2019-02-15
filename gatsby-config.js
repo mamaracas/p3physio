@@ -2,7 +2,21 @@ module.exports = {
   siteMetadata: {
     title: `P3 Physio`,
     description: ``,
-    author: ``
+    author: ``,
+    menuLinks: [
+      {
+        name: 'home',
+        link: '/'
+      },
+      {
+        name: 'about',
+        link: '/about'
+      },
+      {
+        name: 'contact',
+        link: '/contact'
+      }
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
