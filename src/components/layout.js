@@ -17,7 +17,7 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
+      <div class="bg">
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
           style={{
@@ -30,7 +30,7 @@ const Layout = ({ children }) => (
           <main>{children}</main>
           <footer>Contact details to go here</footer>
         </div>
-      </>
+      </div>
     )}
   />
 );

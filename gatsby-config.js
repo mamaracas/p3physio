@@ -5,12 +5,16 @@ module.exports = {
     author: ``,
     menuLinks: [
       {
-        name: 'home',
+        name: 'about',
         link: '/'
       },
       {
-        name: 'about',
-        link: '/about'
+        name: 'physio',
+        link: '/physio'
+      },
+      {
+        name: 'pilates',
+        link: '/pilates'
       },
       {
         name: 'contact',

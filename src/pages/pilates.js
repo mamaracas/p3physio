@@ -8,7 +8,7 @@ import styles from './about.module.css';
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="About"
+      title="Pilates"
       description="P3 Physio, peak performance physiotherapy"
       keywords={[`P3 Physio`, `application`, `react`]}
     />
