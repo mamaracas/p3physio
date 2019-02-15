@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout>
     <SEO
       title="Contact"
-      description=""
+      description="Peak performance physiotherapy"
       keywords={[`P3 Physio`, `application`, `react`]}
     />
 

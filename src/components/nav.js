@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { Link } from 'gatsby';
 import { StaticQuery, graphql } from 'gatsby';
-import { forEach } from 'iterall';
 
 function Nav() {
   return (

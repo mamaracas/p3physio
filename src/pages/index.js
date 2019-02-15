@@ -10,7 +10,7 @@ const IndexPage = () => (
     <SEO
       title="Home"
       description="P3 Physio"
-      keywords={[`gatsby`, `application`, `react`]}
+      keywords={[`physio`, `pilates`, `Peak performance physio`]}
     />
     <h1>Hi people</h1>
     <p />
