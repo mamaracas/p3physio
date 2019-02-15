@@ -3,22 +3,25 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { Link } from 'gatsby';
 import { StaticQuery, graphql } from 'gatsby';
+import { slide as Menu } from 'react-burger-menu';
 
 function Nav() {
   return (
-    <StaticQuery
-      query={navQuery}
-      render={data => {
-        let { menuLinks } = data.site.siteMetadata;
-        return menuLinks.map((menuLink, i) => {
-          return (
-            <Link to={`${menuLink.link}`} key={i}>
-              {menuLink.name}
-            </Link>
-          );
-        });
-      }}
-    />
+    <Menu>
+      <StaticQuery
+        query={navQuery}
+        render={data => {
+          let { menuLinks } = data.site.siteMetadata;
+          return menuLinks.map((menuLink, i) => {
+            return (
+              <div key={i}>
+                <Link to={`${menuLink.link}`}>{menuLink.name}</Link>
+              </div>
+            );
+          });
+        }}
+      />
+    </Menu>
   );
 }
 

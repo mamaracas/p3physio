@@ -17,8 +17,7 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <div class="bg">
-        <Header siteTitle={data.site.siteMetadata.title} />
+      <div className="bg">
         <div
           style={{
             margin: `0 auto`,
@@ -28,7 +27,8 @@ const Layout = ({ children }) => (
           }}
         >
           <main>{children}</main>
-          <footer>Contact details to go here</footer>
+          <Header siteTitle={data.site.siteMetadata.title} />
+          <footer />
         </div>
       </div>
     )}

@@ -5,7 +5,7 @@ import React from 'react';
 
 const Header = ({ siteTitle }) => (
   <header>
-    <a href="#" id="logo" />
+    <a id="logo" />
     <Nav />
   </header>
 );
