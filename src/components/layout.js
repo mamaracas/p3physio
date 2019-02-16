@@ -28,7 +28,10 @@ const Layout = ({ children }) => (
         >
           <main>{children}</main>
           <Header siteTitle={data.site.siteMetadata.title} />
-          <footer />
+          <footer>
+            <a href="mailto:neil@p3physio.co.uk">neil@p3physio.co.uk</a> |&nbsp;
+            07962150695
+          </footer>
         </div>
       </div>
     )}
