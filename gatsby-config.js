@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/2019`,
   siteMetadata: {
     title: `P3 Physio`,
     description: ``,
@@ -11,10 +12,14 @@ module.exports = {
       {
         name: 'physio',
         link: '/physio'
-      },
+    
       {
         name: 'pilates',
         link: '/pilates'
+      },
+      {
+        name: 'booking',
+        link: '/booking'
       },
       {
         name: 'contact',

@@ -2,9 +2,10 @@ import React from 'react';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import bgImage from '../images/run.jpg';
 
 const NotFoundPage = () => (
-  <Layout>
+  <Layout backgroundImage={bgImage}>
     <SEO
       title="404: Not found"
       description="404"
